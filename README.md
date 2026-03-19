@@ -66,6 +66,7 @@ This solution improves communication efficiency and reduces workload on HR and I
                   |  Response  |
                   +------------+
 ## PROGRAM:
+```
 import random
 import threading
 import time
@@ -212,6 +213,7 @@ if __name__ == "__main__":
     print("Type 'upload' to test document processing\n")
 
     start_chatbot()
+```
 ## OUTPUT:
 <img width="1045" height="690" alt="image" src="https://github.com/user-attachments/assets/8262563f-2cc2-4831-b0eb-fca0f651d47a" />
 
