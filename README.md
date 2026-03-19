@@ -1,19 +1,19 @@
-TITLE:
+## TITLE:
 Secure Multi-User Organizational Knowledge Chatbot with Document Processing
 
-NAME:KEERTHIKA A
-REG NO:212224220048
-Problem Title:
+## NAME:KEERTHIKA A
+## REG NO:212224220048
+## Problem Title:
 AI-Based Organizational Knowledge Chatbot with Secure Access and Document Processing
 
-Problem Description:
+## Problem Description:
 Large organizations handle a lot of internal information such as HR policies, leave rules, IT support procedures, and employee guidelines. Employees often waste time searching through documents or contacting departments for simple queries.
 
 There is a need for an intelligent system that can automatically answer employee queries, provide organization-related information, and analyze uploaded documents. The system should also ensure security by authenticating users and filtering inappropriate language.
 
 Therefore, an AI-based chatbot can be developed to provide quick access to organizational knowledge while supporting multiple users and basic document analysis.
 
-Idea / Proposed Solution:
+## Idea / Proposed Solution:
 The proposed system is a Python-based AI chatbot that helps employees access internal organizational information easily.
 
 #vKey ideas of the system: A knowledge base stores common organizational information such as leave policies, password reset procedures, and timesheet updates.
@@ -30,7 +30,7 @@ Users can simulate document uploads, and the system extracts a summary and impor
 
 This solution improves communication efficiency and reduces workload on HR and IT departments.
 
-Architecture Diagram (Text Representation):
+## Architecture Diagram (Text Representation):
           +----------------------+
              |      Users (1-5)     |
              +----------+-----------+
@@ -65,7 +65,7 @@ Architecture Diagram (Text Representation):
                   +------------+
                   |  Response  |
                   +------------+
-PROGRAM:
+## PROGRAM:
 import random
 import threading
 import time
@@ -212,8 +212,8 @@ if __name__ == "__main__":
     print("Type 'upload' to test document processing\n")
 
     start_chatbot()
-OUTPUT:
+## OUTPUT:
 <img width="1045" height="690" alt="image" src="https://github.com/user-attachments/assets/8262563f-2cc2-4831-b0eb-fca0f651d47a" />
 
-RESULT:
+## RESULT:
 The chatbot successfully answers organizational queries, authenticates users using OTP, filters inappropriate language, supports multiple users, and summarizes uploaded documents.
